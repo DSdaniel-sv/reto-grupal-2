@@ -9,7 +9,7 @@
     max-width: 960px;
 }
 
-.card-1{
+.card-1, .card-3{
     
     border-color: rgb(58, 58, 58);
     border-radius:10px;
@@ -73,4 +73,13 @@
 .container-reply img {
 
     margin: 5px;
+}
+
+.card-3{
+}
+
+.padre{
+    border-left: 1px solid #cfcfcf;
+    margin-left: 5rem;
+    padding-left: 5rem;
 }
