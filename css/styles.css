@@ -8,3 +8,44 @@
     margin: auto;
     background-color: blue;
 }
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.wrapper{
+    margin: auto;
+    max-width: 960px;
+}
+
+.card-1{
+    
+    border-color: rgb(58, 58, 58);
+    border-radius:10px;
+    margin: 10px;
+    box-shadow: 1px 1px 6px rgb(133, 133, 133);
+
+}
+.header-amy{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.header-amy-column{
+    
+    border-radius: 12px;
+    background-color: rgb(238, 237, 237);
+    box-shadow: 1px 1px 6px rgb(133, 133, 133);
+    margin: 10px;
+}
+.header-amy-column img , .header-amy-column p{
+    margin: 8px;
+
+}
+.header-amy-column p{
+    font-weight: bold;
+    color: rgb(103, 67, 170);
+}
