@@ -93,14 +93,14 @@
 .btn_i1{
     display: flex;
     background-color: transparent;
-    border-start-end-radius: 15px;
-    border-top-left-radius: 15px;
+    border-start-end-radius: 11.5px;
+    border-top-left-radius: 11.5px;
 }
 .btn_i2{
     display: flex;
     background-color: transparent;
-    border-end-start-radius: 15px;
-    border-end-end-radius:  15px;
+    border-end-start-radius: 11.5px;
+    border-end-end-radius:  11.5px;
 }
 
 /*------CAJA COMENTARIO------*/
@@ -117,21 +117,36 @@
 .pie div img{
     width: 40px;
 }
+
+.wrapper .pie .pie-comment {
+
+    
+}
 .pie-comment{
-    padding-left: 15px;
+    padding-left: 273px;
     padding-top: 5px;
     padding-right: 335px;
     padding-bottom: 60px;
     border: #d6d6d6 solid 1px;
-    border-radius: 5px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    text-align: start;
+    
 }
 
+
 .pie-button{
+    font-size: small;
     padding: 10px 20px;
-    border-radius: 10px;
-    border-style: none;
+    border: #d6d6d6 solid 1px;
     color: white;
     background-color: hsl(238, 40%, 52%);
-
-
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
 }
