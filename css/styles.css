@@ -83,3 +83,36 @@
     margin-left: 5rem;
     padding-left: 5rem;
 }
+
+/*------CAJA COMENTARIO------*/
+
+.pie{
+    border-color: rgb(58, 58, 58);
+    border-radius:10px;
+    margin: 10px;
+    box-shadow: 1px 1px 6px rgb(133, 133, 133);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.pie div img{
+    width: 40px;
+}
+.pie-comment{
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-right: 335px;
+    padding-bottom: 60px;
+    border: #d6d6d6 solid 1px;
+    border-radius: 5px;
+}
+
+.pie-button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    background-color: hsl(238, 40%, 52%);
+
+
+}
