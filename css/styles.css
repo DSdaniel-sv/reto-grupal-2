@@ -29,6 +29,7 @@
     background-color: rgb(238, 237, 237);
     box-shadow: 1px 1px 6px rgb(133, 133, 133);
     margin: 10px;
+    text-align: center;
 }
 .header-amy-column img , .header-amy-column p{
     margin: 8px;
@@ -82,4 +83,22 @@
     border-left: 1px solid #cfcfcf;
     margin-left: 5rem;
     padding-left: 5rem;
+}
+.div-btn{
+    display: inline-block;
+    
+}
+.div2-btn{
+}
+.btn_i1{
+    display: flex;
+    background-color: transparent;
+    border-start-end-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.btn_i2{
+    display: flex;
+    background-color: transparent;
+    border-end-start-radius: 15px;
+    border-end-end-radius:  15px;
 }
