@@ -103,6 +103,19 @@
     border-end-end-radius:  15px;
 }
 
+.container-buttons{
+    display: flex;
+    margin-right: 0.5rem;
+}
+.container-buttons button{
+    margin: 0.8rem;
+    border: none;
+    background-color: white;
+}
+.container-buttons p{
+    padding-top: 0.8rem;
+}
+
 /*------CAJA COMENTARIO------*/
 
 .pie{
